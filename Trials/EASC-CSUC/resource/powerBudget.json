@@ -1,0 +1,21 @@
+{
+  "dateFrom" : "2016-01-21T13:09:00",
+  "dateTo" : "2016-01-21T14:09:00",
+  "timeSlotDuration" : "15 min",
+  "powerQuotas" : [ 
+  {
+    "timeSlot" : 1,
+    "power" : "100 W"
+  }, {
+    "timeSlot" : 2,
+    "power" : "200 W"
+  }, {
+    "timeSlot" : 3,
+    "power" : "76 W"
+  }, {
+    "timeSlot" : 4,
+    "power" : "50 W"
+  }
+  ],
+  "eascName" : "EASC-CSUC"
+}

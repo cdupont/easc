@@ -1,0 +1,20 @@
+#Maven stuff
+target
+
+#Intellj
+*.iml
+*.idea
+
+#Eclipse
+*.settings
+*.classpath
+*.project
+
+#EASC-Trento
+EASC-Trento/logs
+*.log
+EASC/logs/
+EASC-CFApp/logs/
+
+#Yaml temporary files
+*.yaml~

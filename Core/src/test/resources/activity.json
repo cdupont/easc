@@ -1,0 +1,38 @@
+{
+  "eascName" : "test",
+  "dateFrom": "2014-09-04T12:09:00",
+  "dateTo": "2014-09-06T10:00:00",
+  "timeSlotDuration": "1 min",
+  "activities" : [ {
+    "name" : "test",
+    "works" : [ {
+      "startTimeSlot" : 1,
+      "endTimeSlot" : 1,
+      "workingMode" : "WM2",
+      "power" : "1 W",
+      "greenPoints" : 0
+    }, 
+    {
+      "startTimeSlot" : 2,
+      "endTimeSlot" : 2,
+      "workingMode" : "WM3",
+      "power" : "1 W",
+      "greenPoints" : 0
+    }, 
+    {
+      "startTimeSlot" : 3,
+      "endTimeSlot" : 3,
+      "workingMode" : "WM2",
+      "power" : "1 W",
+      "greenPoints" : 0
+    }, 
+    {
+      "startTimeSlot" : 4,
+      "endTimeSlot" : 4,
+      "workingMode" : "WM3",
+      "power" : "1 W",
+      "greenPoints" : 0
+    } 
+    ]
+  } ]
+}

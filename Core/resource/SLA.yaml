@@ -1,0 +1,74 @@
+!SLA
+minBusinessPerformance:
+- startTimeSlot: 1
+  endTimeSlot: 4
+  minBusinessPerf: !amount '1696 Req/s'
+- startTimeSlot: 5
+  endTimeSlot: 8
+  minBusinessPerf: !amount '1679 Req/s'
+- startTimeSlot: 9
+  endTimeSlot: 12
+  minBusinessPerf: !amount '1387 Req/s'
+- startTimeSlot: 13
+  endTimeSlot: 16
+  minBusinessPerf: !amount '1053 Req/s'
+- startTimeSlot: 17
+  endTimeSlot: 20
+  minBusinessPerf: !amount '1044 Req/s'
+- startTimeSlot: 21
+  endTimeSlot: 24
+  minBusinessPerf: !amount '1013 Req/s'
+- startTimeSlot: 25
+  endTimeSlot: 28
+  minBusinessPerf: !amount '1004 Req/s'
+- startTimeSlot: 29
+  endTimeSlot: 32
+  minBusinessPerf: !amount '1005 Req/s'
+- startTimeSlot: 33
+  endTimeSlot: 36
+  minBusinessPerf: !amount '1111 Req/s'
+- startTimeSlot: 37
+  endTimeSlot: 40
+  minBusinessPerf: !amount '1379 Req/s'
+- startTimeSlot: 41
+  endTimeSlot: 44
+  minBusinessPerf: !amount '1697 Req/s'
+- startTimeSlot: 45
+  endTimeSlot: 48
+  minBusinessPerf: !amount '1941 Req/s'
+- startTimeSlot: 49
+  endTimeSlot: 52
+  minBusinessPerf: !amount '1919 Req/s'
+- startTimeSlot: 53
+  endTimeSlot: 56
+  minBusinessPerf: !amount '2242 Req/s'
+- startTimeSlot: 57
+  endTimeSlot: 60
+  minBusinessPerf: !amount '2328 Req/s'
+- startTimeSlot: 61
+  endTimeSlot: 64
+  minBusinessPerf: !amount '2968 Req/s'
+- startTimeSlot: 65
+  endTimeSlot: 68
+  minBusinessPerf: !amount '2972 Req/s'
+- startTimeSlot: 69
+  endTimeSlot: 72
+  minBusinessPerf: !amount '3216 Req/s'
+- startTimeSlot: 73
+  endTimeSlot: 76
+  minBusinessPerf: !amount '3265 Req/s'
+- startTimeSlot: 77
+  endTimeSlot: 80
+  minBusinessPerf: !amount '2936 Req/s'
+- startTimeSlot: 81
+  endTimeSlot: 84
+  minBusinessPerf: !amount '2751 Req/s'
+- startTimeSlot: 85
+  endTimeSlot: 88
+  minBusinessPerf: !amount '2182 Req/s'
+- startTimeSlot: 89
+  endTimeSlot: 92
+  minBusinessPerf: !amount '1898 Req/s'
+- startTimeSlot: 93
+  endTimeSlot: 96
+  minBusinessPerf: !amount '1866 Req/s'

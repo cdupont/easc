@@ -1,0 +1,75 @@
+<!--
+  ~ Copyright 2016 The DC4Cities author.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<VM>
+  <ID>6</ID>
+  <UID>0</UID>
+  <NAME>vm-example</NAME>
+  <LAST_POLL>1277729095</LAST_POLL>
+  <STATE>3</STATE>
+  <LCM_STATE>3</LCM_STATE>
+  <STIME>1277375180</STIME>
+  <ETIME>0</ETIME>
+  <DEPLOY_ID>dummy</DEPLOY_ID>
+  <MEMORY>512</MEMORY>
+  <CPU>1</CPU>
+  <NET_TX>12345</NET_TX>
+  <NET_RX>0</NET_RX>
+  <TEMPLATE>
+    <CONTEXT>
+      <DNS>192.169.1.4</DNS>
+      <TYPE/>
+    </CONTEXT>
+    <CPU>1</CPU>
+    <DISK>
+      <READONLY>no</READONLY>
+      <SOURCE>/srv/cloud/images/ttylinux/ttylinux.img</SOURCE>
+      <TARGET>sda</TARGET>
+    </DISK>
+    <DISK>
+      <READONLY>no</READONLY>
+      <SIZE>1024</SIZE>
+      <TARGET>sdb</TARGET>
+      <TYPE>swap</TYPE>
+    </DISK>
+    <MEMORY>512</MEMORY>
+    <NAME>vm-example</NAME>
+    <NIC>
+      <MAC>50:20:20:20:20:20</MAC>
+    </NIC>
+    <OS>
+      <INITRD>/initrd.img</INITRD>
+      <KERNEL>/vmlinuz</KERNEL>
+      <ROOT>sda</ROOT>
+    </OS>
+    <REQUIREMENTS>MAC="50:20:20:20:20:20"</REQUIREMENTS>
+    <VMID>6</VMID>
+  </TEMPLATE>
+  <HISTORY>
+    <SEQ>0</SEQ>
+    <HOSTNAME>dummyhost</HOSTNAME>
+    <HID>0</HID>
+    <STIME>1277375186</STIME>
+    <ETIME>0</ETIME>
+    <PSTIME>1277375186</PSTIME>
+    <PETIME>1277375186</PETIME>
+    <RSTIME>1277375186</RSTIME>
+    <RETIME>0</RETIME>
+    <ESTIME>0</ESTIME>
+    <EETIME>0</EETIME>
+    <REASON>0</REASON>
+  </HISTORY>
+</VM>

@@ -1,0 +1,20 @@
+!SLA
+slaTypes:
+slaName: "AmazonEC2"
+  basePrice: "100 EUR"
+  priceModifiers:
+  - threshold: "99"
+    priceMod: "2"
+  - threshold: "98"
+    priceMod: "4"
+  - threshold: "97"
+    priceMod: "16"
+slaName: "MSAzure"
+  basePrice: "100 EUR"
+  priceModifiers:
+  - threshold: "99.58"
+    priceMod: "2"
+  - threshold: "97.55"
+    priceMod: "8"
+  - threshold: "96"
+    priceMod: "64"

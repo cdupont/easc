@@ -1,0 +1,10 @@
+!ServerConfig
+servers:
+- name: server1
+  disk: 1000
+  pidle: !amount '100 W'
+  ram: 1000
+- name: server2
+  disk: 1000
+  pidle: !amount '100 W'
+  ram: 1000

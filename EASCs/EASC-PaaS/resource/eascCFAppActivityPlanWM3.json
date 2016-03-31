@@ -1,0 +1,25 @@
+{
+  "eascName" : "defaultName",
+  "dateFrom" : "2015-06-20T15:27:00",
+  "dateTo" : "2015-06-22T00:45:00",
+  "timeSlotDuration" : "15 min",
+  "activities" : [ {
+    "name" : "cf-env",
+    "dataCenters" : [ {
+      "dataCenterName" : "dctest1",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 1,
+        "workingModeName" : "WM3",
+        "workingModeValue" : 1,
+        "power" : "550 W"
+      }, {
+        "startTimeSlot" : 1,
+        "endTimeSlot" : 3,
+        "workingModeName" : "WM3",
+        "workingModeValue" : 2,
+        "power" : "150 W"
+      } ]
+    } ]
+  } ]
+}

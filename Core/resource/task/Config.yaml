@@ -1,0 +1,7 @@
+!Configuration
+energisExecutePort: 8080
+energisExecuteURL: hackmeplz
+energisPort: 8484
+energisURL: hackmeplz
+monitoringSamplingTime: !amount '15 s'
+siteCode: cn_trento

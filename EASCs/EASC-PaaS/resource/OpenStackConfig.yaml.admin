@@ -1,0 +1,5 @@
+!OpenStackConfig
+apiEndpoint: http://172.16.0.4:5000/v2.0
+username: admin
+password: d4cosPWD
+tenant: cf

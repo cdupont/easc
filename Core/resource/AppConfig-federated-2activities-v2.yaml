@@ -1,0 +1,179 @@
+!Application
+name: defaultName
+activities:
+ - name: WebIndexing
+   businessUnit: Page
+   precedences:
+   - WebCrawling
+   relocability: spreadable
+   migrationPerformanceCost: !amount '10 Page'
+   serviceLevelObjective:
+      cumulativeBusinessObjective: !amount '830 Page'
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Page'
+         modifier: !amount '1 EUR/Page'
+       - threshold: !amount '830 Page'
+         modifier: !amount '-1 EUR/Page'
+   dataCenters:
+    - dataCenterName: CSUC.DCA
+      defaultWorkingMode: WM0
+      workingModes:
+      - name: WM0
+        value: 0
+        actuator:
+         systemCommand: bin/localWMSwitch.sh WM0
+        performanceLevels:
+         - businessPerformance: !amount '0 Page/min'
+           power: !amount '0 W'
+        transitions:
+        - target: WM1
+          performanceCost: !amount '1 Page'
+        - target: WM2
+          performanceCost: !amount '2 Page'
+        - target: WM3
+          performanceCost: !amount '3 Page'
+      - name: WM1
+        value: 1
+        actuator:
+         systemCommand: bin/localWMSwitch.sh WM1
+        performanceLevels:
+        - businessPerformance: !amount '10 Page/min'
+          power: !amount '100 W'
+        transitions:
+        - target: WM2
+          performanceCost: !amount '1 Page'
+        - target: WM3
+          performanceCost: !amount '2 Page'
+      - name: WM2
+        value: 2
+        actuator: 
+         systemCommand: bin/localWMSwitch.sh WM2
+        performanceLevels:
+        - businessPerformance: !amount '20 Page/min'
+          power: !amount '200 W'
+        - businessPerformance: !amount '22 Page/min'
+          power: !amount '220 W'
+        - businessPerformance: !amount '24 Page/min'
+          power: !amount '230 W'
+        transitions:
+        - target: WM3
+          performanceCost: !amount '1 Page'
+      - name: WM3
+        value: 3
+        actuator:
+         systemCommand: bin/localWMSwitch.sh WM3
+        performanceLevels:
+        - businessPerformance: !amount '30 Page/min'
+          power: !amount '300 W'
+    - dataCenterName: IMI.DCA
+      defaultWorkingMode: WM0
+      workingModes:
+      - name: WM0
+        value: 0
+        actuator:
+         systemCommand: bin/imiWMSwitch.sh WM0
+        performanceLevels:
+         - businessPerformance: !amount '0 Page/min'
+           power: !amount '0 W'
+        transitions:
+        - target: WM1
+          performanceCost: !amount '1 Page'
+      - name: WM1
+        value: 1
+        actuator:
+         systemCommand: bin/imiWMSwitch.sh WM1
+        performanceLevels:
+        - businessPerformance: !amount '10 Page/min'
+          power: !amount '100 W'
+        - businessPerformance: !amount '12 Page/min'
+          power: !amount '120 W'
+        - businessPerformance: !amount '13 Page/min'
+          power: !amount '130 W'
+ - name: WebCrawling
+   businessUnit: Page
+   relocability: spreadable
+   migrationPerformanceCost: !amount '10 Page'
+   serviceLevelObjective:
+      cumulativeBusinessObjective: !amount '830 Page'
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Page'
+         modifier: !amount '1 EUR/Page'
+       - threshold: !amount '830 Page'
+         modifier: !amount '-1 EUR/Page'
+   dataCenters:
+    - dataCenterName: CSUC.DCA
+      defaultWorkingMode: WM0
+      workingModes:
+      - name: WM0
+        value: 0
+        actuator:
+         systemCommand: bin/localWMSwitch.sh WM0
+        performanceLevels:
+         - businessPerformance: !amount '0 Page/min'
+           power: !amount '0 W'
+        transitions:
+        - target: WM1
+          performanceCost: !amount '1 Page'
+        - target: WM2
+          performanceCost: !amount '2 Page'
+        - target: WM3
+          performanceCost: !amount '3 Page'
+      - name: WM1
+        value: 1
+        actuator:
+         systemCommand: bin/localWMSwitch.sh WM1
+        performanceLevels:
+        - businessPerformance: !amount '10 Page/min'
+          power: !amount '100 W'
+        transitions:
+        - target: WM2
+          performanceCost: !amount '1 Page'
+        - target: WM3
+          performanceCost: !amount '2 Page'
+      - name: WM2
+        value: 2
+        actuator: 
+         systemCommand: bin/localWMSwitch.sh WM2
+        performanceLevels:
+        - businessPerformance: !amount '20 Page/min'
+          power: !amount '200 W'
+        - businessPerformance: !amount '22 Page/min'
+          power: !amount '220 W'
+        - businessPerformance: !amount '24 Page/min'
+          power: !amount '230 W'
+        transitions:
+        - target: WM3
+          performanceCost: !amount '1 Page'
+      - name: WM3
+        value: 3
+        actuator:
+         systemCommand: bin/localWMSwitch.sh WM3
+        performanceLevels:
+        - businessPerformance: !amount '30 Page/min'
+          power: !amount '300 W'
+    - dataCenterName: IMI.DCA
+      defaultWorkingMode: WM0
+      workingModes:
+      - name: WM0
+        value: 0
+        actuator:
+         systemCommand: bin/imiWMSwitch.sh WM0
+        performanceLevels:
+         - businessPerformance: !amount '0 Page/min'
+           power: !amount '0 W'
+        transitions:
+        - target: WM1
+          performanceCost: !amount '1 Page'
+      - name: WM1
+        value: 1
+        actuator:
+         systemCommand: bin/imiWMSwitch.sh WM1
+        performanceLevels:
+        - businessPerformance: !amount '11 Page/min'
+          power: !amount '100 W'
+        - businessPerformance: !amount '12 Page/min'
+          power: !amount '120 W'
+        - businessPerformance: !amount '13 Page/min'
+          power: !amount '130 W'

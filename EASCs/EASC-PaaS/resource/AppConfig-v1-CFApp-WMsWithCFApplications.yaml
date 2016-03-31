@@ -1,0 +1,109 @@
+!Application
+name: EASC-CFApp
+activities:
+- name: Front-End
+  businessUnit: Page
+  optionPlans:
+  - !Aggressive
+  - !Eager
+  workingModes:
+  - WMName: WM0
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM0
+    defaultPower: !amount '10 W'
+    defaultWM: true
+    greenPoints: 0
+    maxBusinessPerformance: !amount '1 Page/min'
+    resources:
+     - !CFApplication
+       name: frontend
+       disk: 100
+       ram: 100
+       instances: 1
+  - WMName: WM1
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM1
+    defaultPower: !amount '20 W'
+    defaultWM: false
+    greenPoints: 0
+    maxBusinessPerformance: !amount '2 Page/min'
+    resources:
+     - !CFApplication
+       name: frontend
+       disk: 200
+       ram: 200
+       instances: 1
+     - !CFApplication
+       name: backend
+       disk: 200
+       ram: 200
+       instances: 1
+  - WMName: WM2
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM2
+    defaultPower: !amount '30 W'
+    defaultWM: false
+    greenPoints: 0
+    maxBusinessPerformance: !amount '3 Page/min'
+    resources:
+     - !CFApplication
+       name: frontend
+       disk: 200
+       ram: 200
+       instances: 2
+     - !CFApplication
+       name: backend
+       disk: 200
+       ram: 200
+       instances: 1
+     - !CFApplication
+       name: elaboration
+       disk: 200
+       ram: 200
+       instances: 1
+  - WMName: WM3
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM3
+    defaultPower: !amount '40 W'
+    defaultWM: false
+    greenPoints: 0
+    maxBusinessPerformance: !amount '4 Page/min'
+    resources:
+     - !CFApplication
+       name: frontend
+       disk: 200
+       ram: 200
+       instances: 3
+     - !CFApplication
+       name: backend
+       disk: 200
+       ram: 200
+       instances: 2
+     - !CFApplication
+       name: elaboration
+       disk: 200
+       ram: 200
+       instances: 1
+  - WMName: WM4
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM4
+    defaultPower: !amount '50 W'
+    defaultWM: false
+    greenPoints: 0
+    maxBusinessPerformance: !amount '5 Page/min'
+    resources:
+     - !CFApplication
+       name: frontend
+       disk: 200
+       ram: 200
+       instances: 4
+     - !CFApplication
+       name: backend
+       disk: 200
+       ram: 200
+       instances: 2
+     - !CFApplication
+       name: elaboration
+       disk: 200
+       ram: 200
+       instances: 2

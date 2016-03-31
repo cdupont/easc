@@ -1,0 +1,46 @@
+!!eu.dc4cities.easc.resource.EascHpConfiguration
+zabbixIp: 192.168.2.151
+zabbixApiUrl: http://192.168.2.151/zabbix/api_jsonrpc.php
+zabbixUser: user
+zabbixPassword: password
+zabbixItemMappings:
+  - metricName: instant_bizperf
+    activityName: website
+    dataCenterName: hp_milan
+    zabbixItemName: D4C Total Biz Perf
+    unit: !unit Req/s
+  - metricName: instant_bizperf
+    activityName: indexing_global
+    dataCenterName: hp_milan
+    zabbixItemName: Idol1 cnt
+    unit: !unit kPage/h
+  - metricName: instant_bizperf
+    activityName: indexing_elearning
+    dataCenterName: hp_milan
+    zabbixItemName: Idol2 cnt
+    unit: !unit kPage/h
+  - metricName: cumulative_bizperf
+    activityName: indexing_global
+    dataCenterName: hp_milan
+    zabbixItemName: Idol1 sum
+    unit: !unit kPage
+  - metricName: cumulative_bizperf
+    activityName: indexing_elearning
+    dataCenterName: hp_milan
+    zabbixItemName: Idol2 sum
+    unit: !unit kPage
+  - metricName: power
+    activityName: website
+    dataCenterName: hp_milan
+    zabbixItemName: Website Total Power
+    unit: !unit W
+  - metricName: power
+    activityName: indexing_global
+    dataCenterName: hp_milan
+    zabbixItemName: instant power M100 c11n1
+    unit: !unit W
+  - metricName: power
+    activityName: indexing_elearning
+    dataCenterName: hp_milan
+    zabbixItemName: instant power M100 c3n1
+    unit: !unit W

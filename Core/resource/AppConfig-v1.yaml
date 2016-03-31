@@ -1,0 +1,63 @@
+!Application
+name: hp-web
+activities:
+- name: WebSite
+  businessUnit: Req
+  optionPlans:
+  - !MinMaxAgg {aggressiveness: 10}
+  - !MinMaxAgg {aggressiveness: 20}
+  workingModes:
+  - WMName: WM1SM
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM1SM
+    defaultPower: !amount '330 W'
+    defaultWM: true
+    greenPoints: 5
+    maxBusinessPerformance: !amount '1400 Req/s'
+    resources: []
+    schedule: null
+  - WMName: WM1SF
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM1SF
+    defaultPower: !amount '370 W'
+    defaultWM: true
+    greenPoints: 4
+    maxBusinessPerformance: !amount '1700 Req/s'
+    resources: []
+    schedule: null
+  - WMName: WM1SF1SM
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM1SF1SM
+    defaultPower: !amount '400 W'
+    defaultWM: true
+    greenPoints: 3
+    maxBusinessPerformance: !amount '2300 Req/s'
+    resources: []
+    schedule: null
+  - WMName: WM2SF
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM2SF
+    defaultPower: !amount '440 W'
+    defaultWM: true
+    greenPoints: 2
+    maxBusinessPerformance: !amount '2500 Req/s'
+    resources: []
+    schedule: null
+  - WMName: WM2SF1SM
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM2SF1SM
+    defaultPower: !amount '490 W'
+    defaultWM: true
+    greenPoints: 1
+    maxBusinessPerformance: !amount '2900 Req/s'
+    resources: []
+    schedule: null
+  - WMName: WM3SF
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM3SF
+    defaultPower: !amount '550 W'
+    defaultWM: true
+    greenPoints: 0
+    maxBusinessPerformance: !amount '3500 Req/s'
+    resources: []
+    schedule: null

@@ -1,0 +1,300 @@
+!Application
+name: defaultName
+activities:
+ - name: WebServiceLearning
+   businessUnit: Req
+   relocability: spreadable
+   migrationPerformanceCost: !amount '10 Req/s'
+   serviceLevelObjectives:
+    - instantBusinessObjective: !amount '1696 Req/s'
+      timeFrom: 00:00:00
+      timeTo: 01:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1679 Req/s'
+      timeFrom: 01:00:00
+      timeTo: 02:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1387 Req/s'
+      timeFrom: 02:00:00
+      timeTo: 03:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1053 Req/s'
+      timeFrom: 03:00:00
+      timeTo: 04:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1044 Req/s'
+      timeFrom: 04:00:00
+      timeTo: 05:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1013 Req/s'
+      timeFrom: 05:00:00
+      timeTo: 06:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1004 Req/s'
+      timeFrom: 06:00:00
+      timeTo: 07:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1005 Req/s'
+      timeFrom: 07:00:00
+      timeTo: 08:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1111 Req/s'
+      timeFrom: 08:00:00
+      timeTo: 09:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1379 Req/s'
+      timeFrom: 09:00:00
+      timeTo: 10:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1697 Req/s'
+      timeFrom: 10:00:00
+      timeTo: 11:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1941 Req/s'
+      timeFrom: 11:00:00
+      timeTo: 12:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1919 Req/s'
+      timeFrom: 12:00:00
+      timeTo: 13:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '2242 Req/s'
+      timeFrom: 13:00:00
+      timeTo: 14:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '2328 Req/s'
+      timeFrom: 14:00:00
+      timeTo: 15:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '2968 Req/s'
+      timeFrom: 15:00:00
+      timeTo: 16:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '2972 Req/s'
+      timeFrom: 16:00:00
+      timeTo: 17:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '3216 Req/s'
+      timeFrom: 17:00:00
+      timeTo: 18:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '3265 Req/s'
+      timeFrom: 18:00:00
+      timeTo: 19:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '2936 Req/s'
+      timeFrom: 19:00:00
+      timeTo: 20:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '2751 Req/s'
+      timeFrom: 20:00:00
+      timeTo: 21:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '2182 Req/s'
+      timeFrom: 21:00:00
+      timeTo: 22:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1898 Req/s'
+      timeFrom: 22:00:00
+      timeTo: 23:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+    - instantBusinessObjective: !amount '1866 Req/s'
+      timeFrom: 23:00:00
+      timeTo: 24:00:00
+      basePrice: !amount '500 EUR'
+      priceModifiers:
+       - threshold: !amount '900 Req'
+         modifier: !amount '1 EUR/Req'
+       - threshold: !amount '830 Req'
+         modifier: !amount '-1 EUR/Req'
+   dataCenters:
+    - dataCenterName: HP.Milan
+      defaultWorkingMode: WM0
+      workingModes:
+      - name: WM0
+        value: 0
+        actuator:
+         systemCommand: bin/localWMSwitch.sh WM0
+        performanceLevels:
+         - businessPerformance: !amount '0 Req/s'
+           power: !amount '0 W'
+        transitions:
+        - target: WM1
+          performanceCost: !amount '1 Req/s'
+        - target: WM2
+          performanceCost: !amount '2 Req/s'
+        - target: WM3
+          performanceCost: !amount '3 Req/s'
+      - name: WM1
+        value: 1
+        actuator:
+         systemCommand: bin/localWMSwitch.sh WM1
+        performanceLevels:
+        - businessPerformance: !amount '10 Req/s'
+          power: !amount '100 W'
+        transitions:
+        - target: WM2
+          performanceCost: !amount '1 Req/s'
+        - target: WM3
+          performanceCost: !amount '2 Req/s'
+      - name: WM2
+        value: 2
+        actuator: 
+         systemCommand: bin/localWMSwitch.sh WM2
+        performanceLevels:
+        - businessPerformance: !amount '20 Req/s'
+          power: !amount '200 W'
+        - businessPerformance: !amount '22 Req/s'
+          power: !amount '220 W'
+        - businessPerformance: !amount '24 Req/s'
+          power: !amount '230 W'
+        transitions:
+        - target: WM3
+          performanceCost: !amount '1 Req/s'
+      - name: WM3
+        value: 3
+        actuator:
+         systemCommand: bin/localWMSwitch.sh WM3
+        performanceLevels:
+        - businessPerformance: !amount '30 Req/s'
+          power: !amount '300 W'
+    - dataCenterName: HP.NY
+      defaultWorkingMode: WM0
+      workingModes:
+      - name: WM0
+        value: 0
+        actuator:
+         systemCommand: bin/imiWMSwitch.sh WM0
+        performanceLevels:
+         - businessPerformance: !amount '0 Req/s'
+           power: !amount '0 W'
+        transitions:
+        - target: WM1
+          performanceCost: !amount '1 Req/s'
+      - name: WM1
+        value: 1
+        actuator:
+         systemCommand: bin/imiWMSwitch.sh WM1
+        performanceLevels:
+        - businessPerformance: !amount '10 Req/s'
+          power: !amount '100 W'
+        - businessPerformance: !amount '12 Req/s'
+          power: !amount '120 W'
+        - businessPerformance: !amount '13 Req/s'
+          power: !amount '130 W'
+

@@ -1,0 +1,27 @@
+{
+    "eascName": "easc1",
+    "dateFrom": "2014-09-18T19:05:00",
+    "dateTo": "2014-09-18T19:11:00",
+    "timeSlotDuration": "2 min",
+    "activities": [
+        {
+            "name": "MyActivity1",
+            "works": [
+                {
+                    "startTimeSlot": 1,
+                    "endTimeSlot": 1,
+                    "workingMode": "WM1",
+                    "power": "12 W",
+                    "greenPoints": 0
+                },
+                {
+                    "startTimeSlot": 2,
+                    "endTimeSlot": 3,
+                    "workingMode": "WM2",
+                    "power": "12 W",
+                    "greenPoints": 0
+                }
+            ]
+        }
+    ]
+}

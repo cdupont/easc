@@ -1,0 +1,21 @@
+{
+  "dateFrom" : "2014-06-19T15:14:30",
+  "dateTo" : "2014-06-20T15:14:30",
+  "timeSlotDuration" : "15 min",
+  "powerQuotas" : [ 
+  {
+    "timeSlot" : 1,
+    "power" : "40 W"
+  }, {
+    "timeSlot" : 2,
+    "power" : "15 W"
+  }, {
+    "timeSlot" : 3,
+    "power" : "5 W"
+  }, {
+    "timeSlot" : 4,
+    "power" : "15 W"
+  }
+  ],
+  "eascName" : "defaultName"
+}

@@ -1,0 +1,6 @@
+!CloudFoundryConfig
+username: admin
+password: cloudfoundry
+apiEndpoint: http://api.172.16.0.191.xip.io
+org: create-net
+space: d4c

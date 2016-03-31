@@ -1,0 +1,6 @@
+!CloudFoundryConfig
+username: admin
+password: admin
+apiEndpoint: https://api.10.244.0.34.xip.io
+org: DC4Cities
+space: TrentoTrial

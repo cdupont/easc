@@ -1,0 +1,296 @@
+
+{
+  "eascName" : "EASC-Trento",
+  "dateFrom" : "2014-11-14T15:45:00",
+  "dateTo" : "2014-11-15T15:45:00",
+  "timeSlotDuration" : "15 min",
+  "powerQuotas" : [ {
+    "timeSlot" : 1,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 2,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 3,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 4,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 5,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 6,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 7,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 8,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 9,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 10,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 11,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 12,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 13,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 14,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 15,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 16,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 17,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 18,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 19,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 20,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 21,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 22,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 23,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 24,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 25,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 26,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 27,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 28,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 29,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 30,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 31,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 32,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 33,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 34,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 35,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 36,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 37,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 38,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 39,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 40,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 41,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 42,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 43,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 44,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 45,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 46,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 47,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 48,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 49,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 50,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 51,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 52,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 53,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 54,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 55,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 56,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 57,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 58,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 59,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 60,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 61,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 62,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 63,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 64,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 65,
+    "power" : "600 W"
+  }, {
+    "timeSlot" : 66,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 67,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 68,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 69,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 70,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 71,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 72,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 73,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 74,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 75,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 76,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 77,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 78,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 79,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 80,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 81,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 82,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 83,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 84,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 85,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 86,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 87,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 88,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 89,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 90,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 91,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 92,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 93,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 94,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 95,
+    "power" : "2000 W"
+  }, {
+    "timeSlot" : 96,
+    "power" : "600 W"
+  } ]
+}

@@ -1,0 +1,51 @@
+{
+  "eascName" : "EASC-CFApp",
+  "dateFrom": "2015-05-05T16:24:00",
+  "dateTo": "2015-05-05T16:59:00",
+  "timeSlotDuration": "1 min",
+  "activities" : [ {
+    "name" : "Front-End",
+    "works" : [ {
+      "startTimeSlot" : 1,
+      "endTimeSlot" : 1,
+      "workingMode" : "WM0",
+      "power" : "1 W",
+      "greenPoints" : 0
+    }, 
+    {
+      "startTimeSlot" : 2,
+      "endTimeSlot" : 2,
+      "workingMode" : "WM1",
+      "power" : "1 W",
+      "greenPoints" : 0
+    }, 
+    {
+      "startTimeSlot" : 3,
+      "endTimeSlot" : 3,
+      "workingMode" : "WM2",
+      "power" : "1 W",
+      "greenPoints" : 0
+    }, 
+    {
+      "startTimeSlot" : 4,
+      "endTimeSlot" : 4,
+      "workingMode" : "WM3",
+      "power" : "1 W",
+      "greenPoints" : 0
+    }, 
+    {
+      "startTimeSlot" : 5,
+      "endTimeSlot" : 7,
+      "workingMode" : "WM4",
+      "power" : "1 W",
+      "greenPoints" : 0
+    } , 
+    {
+      "startTimeSlot" : 8,
+      "endTimeSlot" : 10,
+      "workingMode" : "WM1",
+      "power" : "1 W",
+      "greenPoints" : 0
+    } ]
+  }]
+}

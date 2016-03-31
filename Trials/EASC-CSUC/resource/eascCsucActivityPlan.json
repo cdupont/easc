@@ -1,0 +1,43 @@
+{
+  "eascName" : "EASC-CSUC",
+  "dateFrom" : "2016-01-21T14:59:00",
+  "dateTo" : "2016-01-22T15:55:00",
+  "timeSlotDuration" : "5 min",
+  "activities" : [ {
+    "name" : "VideoTranscoding",
+    "dataCenters" : [ {
+      "dataCenterName" : "csuc_barcelona",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 1,
+        "workingModeName" : "VTWM0",
+        "workingModeValue" : 1,
+        "power" : "50 W"
+      }, {
+        "startTimeSlot" : 1,
+        "endTimeSlot" : 2,
+        "workingModeName" : "VTWM0",
+        "workingModeValue" : 2,
+        "power" : "100 W"
+      } ]
+    } ] },
+{
+    "name" : "WebCrawling",
+    "dataCenters" : [ {
+      "dataCenterName" : "csuc_barcelona",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 1,
+        "workingModeName" : "WCWM0",
+        "workingModeValue" : 1,
+        "power" : "50 W"
+      }, {
+        "startTimeSlot" : 1,
+        "endTimeSlot" : 2,
+        "workingModeName" : "WCWM2",
+        "workingModeValue" : 2,
+        "power" : "100 W"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,40 @@
+{
+  "eascName" : "defaultName",
+  "dateFrom" : "2015-06-20T15:27:00",
+  "dateTo" : "2015-06-22T00:45:00",
+  "timeSlotDuration" : "15 min",
+  "activities" : [ {
+    "name" : "WebIndexing",
+    "dataCenters" : [ {
+      "dataCenterName" : "CSUC.DCA",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 1,
+        "workingModeName" : "WM2",
+        "workingModeValue" : 2,
+        "power" : "550 W"
+      }, {
+        "startTimeSlot" : 1,
+        "endTimeSlot" : 3,
+        "workingModeName" : "WM2",
+        "workingModeValue" : 2,
+        "power" : "150 W"
+      } ]
+    }, {
+      "dataCenterName" : "IMI.DCA",
+      "works" : [ {
+        "startTimeSlot" : 0,
+        "endTimeSlot" : 2,
+        "workingModeName" : "WM1",
+        "workingModeValue" : 1,
+        "power" : "150 W"
+      }, {
+        "startTimeSlot" : 2,
+        "endTimeSlot" : 3,
+        "workingModeName" : "WM0",
+        "workingModeValue" : 0,
+        "power" : "0 W"
+      } ]
+    } ]
+  } ]
+}

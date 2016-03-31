@@ -1,0 +1,36 @@
+!Application
+activities:
+- businessUnit: Page
+  name: Front-End
+  optionPlans:
+  - !Eager {}
+  - !Aggressive {}
+  - !Proportional {}
+  workingModes:
+  - WMName: WM1
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM1
+    defaultPower: !amount '10 W'
+    defaultWM: true
+    greenPoints: 0
+    maxBusinessPerformance: !amount '1 Page/min'
+    resources:
+    - !VM
+      name: WebServer
+    - !Server
+      name: Server1
+    schedule: null
+  - WMName: WM4
+    actuator:
+      systemCommand: bin/WMSwitch.sh WM2
+    defaultPower: !amount '20 W'
+    defaultWM: false
+    greenPoints: 0
+    maxBusinessPerformance: !amount '2 Page/min'
+    resources:
+    - !VM
+      name: WebServer
+    - !VM
+      name: WebServer
+    schedule: null
+name: petClinic
